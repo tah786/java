@@ -1,0 +1,13 @@
+
+public class simple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello java");
+		System.out.println("hi"); //this is printing line
+		System.out.print("Good morning");
+		System.out.print("Have a nice day");
+		
+	}
+
+}
