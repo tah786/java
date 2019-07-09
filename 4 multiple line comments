@@ -1,0 +1,14 @@
+public class simple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello java");
+		System.out.println("hi");
+		System.out.print("Good morning"); /* this is multiple line to print the 
+		multiple output*/
+		System.out.print("Have a nice day");
+		
+	}
+
+}
+
