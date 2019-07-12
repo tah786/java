@@ -1,0 +1,14 @@
+package doggy;
+
+public class puppy { 
+public puppy(String name) { //creating constructors as same name as class
+	System.out.println("passed name is:" +name);
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		puppy mypuppy=new puppy("tommy");
+		
+	}
+
+}
