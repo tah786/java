@@ -1,0 +1,12 @@
+package variables;
+
+public class employee {
+	public static double salary;
+	private static final String DEPARTMENT="Developer ";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		salary=1000;
+		System.out.println(DEPARTMENT + "average salary: "+salary);
+	}
+
+}
