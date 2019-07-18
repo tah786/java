@@ -1,0 +1,26 @@
+package variables;
+
+public class Employee {
+	public String name;
+	private Double salary;
+	public Employee(String empname) {
+		name=empname;
+		
+	}
+	public void setsalary(double empsal) {
+		salary=empsal;
+		
+	} 
+	public void printemp() {
+		System.out.println("name is "  +name);
+		System.out.println("salary is " +salary);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee empone=new Employee("Rani");
+		empone.setsalary(1000);
+		empone.printemp();
+	}
+
+}
