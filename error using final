@@ -1,0 +1,15 @@
+public class MyClass {
+final int x=10;
+final double PI=3.14;
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyClass myobj=new MyClass();
+		myobj.x=50;
+		myobj.PI=25.0;
+		System.out.println(myobj.x);
+		System.out.println(myobj.PI);
+	}
+	}
+		
