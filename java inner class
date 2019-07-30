@@ -1,0 +1,16 @@
+class outerclass {
+	int x=10;
+	class innerclass{
+		int y=5;
+		
+	}
+}
+public class MyMainClass{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	outerclass myouter=new outerclass();
+	outerclass.innerclass myinner = myouter.new innerclass();
+	System.out.println(myinner.y+myouter.x);
+	}
+	}
+
